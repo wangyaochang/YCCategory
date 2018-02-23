@@ -15,6 +15,7 @@
 		039553E620400B5D00738655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 039553E520400B5D00738655 /* main.m */; };
 		039553F020400B5D00738655 /* YCCategoryExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039553EF20400B5D00738655 /* YCCategoryExampleTests.m */; };
 		039553FB20400B5D00738655 /* YCCategoryExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039553FA20400B5D00738655 /* YCCategoryExampleUITests.m */; };
+		03955415204010D700738655 /* UIViewController+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 03955414204010D700738655 /* UIViewController+Nib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		039553F620400B5D00738655 /* YCCategoryExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCCategoryExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039553FA20400B5D00738655 /* YCCategoryExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCCategoryExampleUITests.m; sourceTree = "<group>"; };
 		039553FC20400B5D00738655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03955413204010D700738655 /* UIViewController+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Nib.h"; sourceTree = "<group>"; };
+		03955414204010D700738655 /* UIViewController+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Nib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		039553D520400B5D00738655 /* YCCategoryExample */ = {
 			isa = PBXGroup;
 			children = (
+				03955412204010D700738655 /* YCCategory */,
 				039553D620400B5D00738655 /* AppDelegate.h */,
 				039553D720400B5D00738655 /* AppDelegate.m */,
 				039553D920400B5D00738655 /* ViewController.h */,
@@ -130,6 +134,16 @@
 				039553FC20400B5D00738655 /* Info.plist */,
 			);
 			path = YCCategoryExampleUITests;
+			sourceTree = "<group>";
+		};
+		03955412204010D700738655 /* YCCategory */ = {
+			isa = PBXGroup;
+			children = (
+				03955413204010D700738655 /* UIViewController+Nib.h */,
+				03955414204010D700738655 /* UIViewController+Nib.m */,
+			);
+			name = YCCategory;
+			path = ../../YCCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +281,7 @@
 			files = (
 				039553DB20400B5D00738655 /* ViewController.m in Sources */,
 				039553E620400B5D00738655 /* main.m in Sources */,
+				03955415204010D700738655 /* UIViewController+Nib.m in Sources */,
 				039553D820400B5D00738655 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

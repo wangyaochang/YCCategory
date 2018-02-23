@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UIViewController+Nib.h"
 
 @interface AppDelegate ()
 
